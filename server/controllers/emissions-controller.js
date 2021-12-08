@@ -30,8 +30,8 @@ sendEmissions = function (res, emissionData) {
 exports.getEmissions = function (req, res) {
     try {
         const usage = req.query.usage;
-        const emissionType = req.query.emissionType;
-        const emissionFactor = emissionFactors[req.params.emissionType] || 0;
+        const emissionType = req.params.emissionType;
+        const emissionFactor = emissionFactors[emissionType] || 0;
 
         // The formula for calculating the emissions is:
         // usage * emissionFactor = totalEmissions
