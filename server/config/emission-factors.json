@@ -1,0 +1,14 @@
+{
+    "electricity": 0.385,
+    "naturalgas": 5.3,
+    "fueloil": 0.371,
+    "lpg": 0.665,
+    "waste": 1,
+    "water": 0.00003,
+    "vehicle": 0.1234,
+    "bus": 1,
+    "metro": 1,
+    "taxi": 1,
+    "rail": 1,
+    "flying": 1
+}
