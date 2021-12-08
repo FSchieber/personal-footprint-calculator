@@ -1,0 +1,10 @@
+.emission-categories{
+    width: 50vw;
+    min-width: 360px;
+    height: auto;
+    margin: 40px auto 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

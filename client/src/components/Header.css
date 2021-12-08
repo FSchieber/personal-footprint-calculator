@@ -1,0 +1,21 @@
+@import "../theme.css";
+
+.header{
+    width: 100vw;
+    height: 60px;
+    background: linear-gradient(31deg, rgba(134,222,183,1) 15%, rgba(99,185,149,1) 91%); 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header-logo{
+    margin-left: 10%;
+    width: 200px;
+    height: 60px;
+    background-image: url("../images/logo_rectangular_small.png");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

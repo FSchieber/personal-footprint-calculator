@@ -1,0 +1,28 @@
+.emissions-input{
+    width: auto;
+    min-width: 200px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+    height: 170px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 34px;
+    border-radius: 10px;
+}
+
+.emission-input-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.emission-input-number{
+    height: 30px;
+    margin: 0px 20px;
+}
+
+.emission-input-unit{
+    margin: 0px 20px;
+}
